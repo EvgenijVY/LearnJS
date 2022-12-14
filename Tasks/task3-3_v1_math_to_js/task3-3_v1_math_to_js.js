@@ -16,7 +16,7 @@ function calculateAngle(countRadian) {
 
     if (Number(countRadian) != countRadian) {
         alert('Вводить нужно число!');
-        return undefined;
+        return ;
     }
 
     let isNegative = countRadian < 0;
